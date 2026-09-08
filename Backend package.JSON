@@ -1,0 +1,16 @@
+{
+  "name": "drishti-backend",
+  "version": "1.0.0",
+  "description": "DRISHTI backend API - hazards, zones, reports, signals, dashboard",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nanoid": "^5.0.7"
+  }
+}
